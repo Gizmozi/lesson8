@@ -1,0 +1,241 @@
+[class*="page"] {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 5px 10px 0px;
+  color: rgba(66, 69, 81, 1);
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+}
+.heada {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  display: block;
+  color: rgba(66, 69, 81, 1);
+  background-color: #e5eafc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.main__title {
+  font-family: "Lato";
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 40px;
+  max-width: 810px;
+  color: rgba(30, 33, 44, 1);
+}
+
+.container {
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 48px;
+}
+
+.main__text {
+  margin-bottom: 48px;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 24px;
+  /* padding-right: 595px; */
+}
+.list__title {
+  color: rgba(30, 33, 44, 1);
+  font-family: "Lato";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 42px;
+  text-align: left;
+  margin-bottom: 28px;
+  max-width: 810px;
+}
+.list {
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 204px;
+}
+
+ul li::before {
+  background: url(../img/Vector.png) 0 0 no-repeat;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+ul li:hover::before {
+  transition: all 0.8s ease 0s;
+  transform: rotate(-360deg);
+}
+/* .two__container {
+
+} */
+.small__title {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.second__main {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 16px;
+  max-width: 810px;
+  color: rgba(30, 33, 44, 1);
+}
+.second__list {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 78px;
+  max-width: 810px;
+}
+.list__two {
+  line-height: 25.6px;
+  font-weight: 700;
+  color: #1e212c;
+}
+.text__end {
+  font-weight: 400;
+  margin-bottom: 48px;
+  line-height: 24px;
+}
+
+ol {
+  margin-bottom: 32px;
+}
+ol li.star::before {
+  background: url(../img/Star.png) 0 0 no-repeat;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+ol li.star:hover::before {
+  transition: all 0.8s ease 0s;
+  transform: scale(1.5) rotate(-360deg);
+}
+
+ol li.play::before {
+  background: url(../img/Play.png) 0 0 no-repeat;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+ol li.play:hover::before {
+  transition: all 0.8s ease 0s;
+  transform: scale(1.5) rotate(-360deg);
+}
+
+ol li.profile::before {
+  background: url(../img/Profile.png) 0 0 no-repeat;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+ol li.profile:hover::before {
+  transition: all 0.8s ease 0s;
+  transform: scale(1.5) rotate(-360deg);
+}
+.homework {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  display: block;
+  color: rgba(66, 69, 81, 1);
+  background-color: gray;
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 48px;
+}
+/* home */
+
+.cov {
+  margin: 0px auto;
+  line-height: 25.6px;
+  text-align: center;
+  color: black;
+  padding: 15px;
+  max-width: 240px;
+}
+.cov:hover {
+  background-color: rgba(66, 69, 81, 1);
+}
+
+.acdc {
+  margin: 0px auto;
+  line-height: 25.6px;
+  text-align: center;
+  color: black;
+  padding: 15px;
+  max-width: 240px;
+}
+.acdc:active {
+  background-color: rgba(66, 69, 81, 1);
+}
+
+.foc {
+  display: block;
+  margin: 0px auto;
+  line-height: 25.6px;
+  text-align: center;
+  color: black;
+  padding: 15px;
+  max-width: 240px;
+}
+.foc:focus {
+  outline: 5px solid rgba(66, 69, 81, 1);
+}
+
+/* end */
+
+footer {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  display: block;
+  color: rgba(66, 69, 81, 1);
+  background-color: #e5eafc;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 72px;
+}
+
+.foot__text {
+  /* background: -webkit-linear-gradient(#333, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 20px;
+}
+/* медненный скролл */
+html {
+  scroll-behavior: smooth;
+}
